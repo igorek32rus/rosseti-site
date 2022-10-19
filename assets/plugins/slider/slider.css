@@ -1,0 +1,69 @@
+/*
+  Для элементов прокрутки выставить:
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+
+  Для родительского:
+    overflow: hidden;
+    position: relative;
+    height: 300px; (вместо 300px свою высоту)
+*/
+
+
+.turnLeft {
+  animation: turnLeftSlide 0.5s ease-in-out;
+}
+
+.newTurnLeft {
+  animation: newTurnLeftSlide 0.5s ease-in-out;
+}
+
+.turnRight {
+  animation: turnRightSlide 0.5s ease-in-out;
+}
+
+.newTurnRight {
+  animation: newTurnRightSlide 0.5s ease-in-out;
+}
+
+
+
+@keyframes turnLeftSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes newTurnLeftSlide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes turnRightSlide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes newTurnRightSlide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

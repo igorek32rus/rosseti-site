@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/favicon.ico">
+    <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/slider/slider.css">
+    <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style.css">
+    <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="w_topPanel">
+      <div class="topPanel">
+        <a class="logo" href="#">
+          <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo4.png" alt="siteLogo">
+        </a>
+        <div class="socialIconsLinks">
+          <!-- <a href="#"><i class="fab fa-vk"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a> -->
+          <a href="https://www.youtube.com/channel/UCy1Pqk1D60MzmhntzVzAH4Q" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="h_contacts">
+          <a class="contactLink" href="#">
+            <i class="far fa-envelope"></i>
+            <div class="contactText">orl.uch.kom@yandex.ru</div>
+          </a>
+        </div>
+        <div class="h_contacts">
+          <a class="contactLink" href="#">
+            <i class="fas fa-phone-alt"></i>
+            <div class="contactText" style="font-size: .8rem;">
+              Приёмная: +7 (4862) 54-30-50<br>
+              Преподавательская: +7 (4862) 54-29-79<br>
+              Бухгалтерия: +7 (4862) 54-06-11 
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="topMenuBlock">
+      <nav>
+        <ul class="topMenu">
+          <li><a href="#" class="active">Главная</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Образование</a></li>
+          <li><a href="#">Поступление</a></li>
+          <li>
+            <a href="#">О центре<span class="fa fa-angle-down"></span></a>
+
+            <ul class="submenu">
+              <li><a href="">Дополнительные услуги</a></li>
+              <li><a href="">Сведения об образовательной организации<span class="fa fa-angle-down"></span></a>
+                <ul class="submenu">
+                  <li><a href="">Основные сведения</a></li>
+                  <li><a href="">Структура и органы управления образовательной организацией</a></li>
+                  <li><a href="">Документы</a></li>
+                  <li><a href="">Образование</a></li>
+                  <li><a href="">Образовательные стандарты</a></li>
+                  <li><a href="">Руководство. Педагогический состав</a></li>
+                  <li><a href="">Материально-техническое обеспечение и оснащенность образовательного процесса</a></li>
+                  <li><a href="">Стипендии и иные виды материальной поддержки</a></li>
+                  <li><a href="">Платные образовательные услуги</a></li>
+                  <li><a href="">Финансово-хозяйственная деятельность</a></li>
+                  <li><a href="">Вакантные места для приема (перевода)</a></li>
+                  <li><a href="">Доступная среда</a></li>
+                  <li><a href="">Международное сотрудничество</a></li>
+                </ul>
+              </li>
+              <li><a href="">Благодарственные письма</a></li>
+              <li><a href="">Вакансии</a></li>
+              <li><a href="">Противодействие терроризму и экстремизму</a></li>
+              <li><a href="">Противодействие коррупции</a></li>
+              <li><a href="">Часто задаваемые вопросы</a></li>
+              <li><a href="">Анкета для слушателей</a></li>
+              <li><a href="">Учредительные и иные документы</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="searchBox">
+        <input type="text" name="searchInput" class="searchInput" value="" placeholder="Поиск по сайту">
+        <button type="button" name="buttonSearch" class="buttonSearch">
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
+      <div class="eye">
+        <a class="eyeLink" href="#">
+          <!-- <div class="eyeIcon"></div> -->
+          <i class="far fa-eye"></i>
+          <div class="eyeText">Версия для слабовидящих</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="item">
+        <div class="itemImgBox">
+          <div class="itemImg" style="background:  url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider/image3.jpg') no-repeat; background-size: cover;"></div>
+        </div>
+        <div class="itemTitle">
+          ЧУ ДПО «Орловский учебный комбинат» - дочернее предприятие компании «Россети Центр»
+        </div>
+        <div class="itemDesc">
+          <p>Учебное заведение основано 27 февраля 1965 г. в качестве Учебного пункта Орловского энергокомбината.</p>
+          <p>Основной целью создания и деятельности Учреждения является осуществление образовательной деятельности по дополнительным профессиональным программам.</p>
+          <p>Учреждение вправе осуществлять образовательную деятельность по программам профессионального обучения и по дополнительным общеобразовательным программам.</p>
+        </div>
+        <button type="button" name="buttonSignUpLearning" class="btnWhiteBig">Заявка на обучение</button>
+      </div>
+
+      <div class="item">
+        <div class="itemImgBox">
+          <div class="itemImg" style="background:  url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider/image4.jpg') no-repeat; background-size: cover;"></div>
+        </div>
+        <div class="itemTitle">
+          ЧУ ДПО «Орловский учебный комбинат» - дочернее предприятие компании «Россети Центр»
+        </div>
+        <div class="itemDesc">
+          <p>В центре ежегодно проходят обучение порядка 4 тысяч человек, количество обученных в 2020 году составило 4062 человек, при плане 4100.</p>
+          <p>Непрерывно выполняются работы по повышению качества профессиональной подготовки персонала, совершенствованию учебного процесса за счет внедрения более прогрессивных методик (курсов).</p>
+          <p>Обновлены учебные программы с учетом изменений в законодательстве в 2021 году, а так же обучающе-контролирующая система «ОЛИМПОКС».</p>
+        </div>
+        <button type="button" name="buttonSignUpLearning" class="btnWhiteBig">Заявка на обучение</button>
+      </div>
+
+      <div class="sliderPaginator">
+      </div>
+    </div>
+
+    <h1 class="title">Образование</h1>
+
+    <div class="topSelector">
+      <a class="itemSel" href="#">
+        <div class="icon present"></div>
+        <div class="text">Профессиональная подготовка и переподготовка</div>
+      </a>
+
+      <a class="itemSel" href="#">
+        <div class="icon speaker"></div>
+        <div class="text">Повышение квалификации рабочих</div>
+      </a>
+
+      <a class="itemSel" href="#">
+        <div class="icon man"></div>
+        <div class="text">Повышение квалификации специалистов</div>
+      </a>
+
+      <a class="itemSel" href="#">
+        <div class="icon graph"></div>
+        <div class="text">Дистанционное обучение</div>
+      </a>
+    </div>
+
+    <div class="learningBtns">
+      <a href="#">Заявка на обучение</a>
+      <a href="#">График занятий</a>
+    </div>
+
+    <!-- <div class="learnBlocks">
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+      <a class="learnBlock" href="#">
+        <span class="titleLearnBlock">Tilte ipsum dolor sit amet, consectetur adipisicing</span>
+        <span class="linkLearnBlock">Lorem ipsum dolor sit amet, consectetur adipisicing</span>
+      </a>
+    </div> -->
+
+    <div class="w_signInLearn">
+      <div class="signInLearn">
+        <div class="electrisity"></div>
+
+        <h1 class="title">Поступление</h1>
+
+        <div class="signLearnChangePanel">
+          <div class="signPanel" onclick="">
+            Требуемые документы
+          </div>
+          <div class="signPanel" onclick="">
+            Текущий набор в группы
+          </div>
+        </div>
+
+        <div class="signLearnBlock">
+          <div class="signLearnPage">
+            <h2 class="title">Требуемые документы:</h2>
+
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Заявление на обучение (<a href="#" target="_blank">форма для юридических лиц</a> / <a href="#" target="_blank">форма для физических лиц</a>)
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Согласие на обработку персональных данных
+              </div>
+            </div>
+          </div>
+          
+          <div class="signLearnPage">
+            <h2 class="title">Текущий набор в группы:</h2>
+
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Операторы котлов - с 2.08 по 4.08, Веткова О.А. [очная форма обучения]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                ИТР по котлам - с 2.08 по 6.08, Веткова О.А. [очная форма обучения]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Сосуды, работающие под давлением - С 10.08 по 16.08 - Булгакова Н.Г. [очная форма обучения]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Тепловое хозяйство - с 2.08 по 20.08, Мерцалов В.В. [заочная форма обучения с применением дистанционных технологий]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Тепловое хозяйство - с 23.08 по 27.08, Мерцалов В.В. [заочная форма обучения с применением дистанционных технологий]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Электробезопасность - с 9.08 по 13.08, Заугольников В.Ф. [заочная форма обучения с применением дистанционных технологий]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Электробезопасность - с 23.08 по 27.08, Заугольников В.Ф. [заочная форма обучения с применением дистанционных технологий]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Оценка профессиональных рисков, разработка СУОТ - с 23.08 по 27.08, Дёмин П.Г. [заочная форма обучения с применением дистанционных технологий]
+              </div>
+            </div>
+            <div class="signLearnCheck">
+              <i class="far fa-check-circle"></i>
+              <div class="signLearnText">
+                Вальщик леса - с 16.08 по 20.08 - Лынов В.С., Мерцалов В.В. [заочная форма обучения с применением дистанционных технологий]
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutBlock">
+      <div class="aboutRow">
+        <img class="aboutImg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about/image5.jpg" alt="about_img1">
+        <div class="aboutRight">
+          <h1 class="aboutTitle">О центре</h1>
+          <p>Предметом деятельности Учреждения является оказание образовательных услуг по реализации дополнительных профессиональных программ и программ профессионального обучения в сфере энергетики и других отраслях:</p>
+            <p>−	направленные на удовлетворение образовательных и профессиональных потребностей, профессиональное развитие человека, обеспечение соответствия его квалификации меняющимся условиям профессиональной деятельности и социальной среды;</p>
+            <p>−	направленные на приобретение лицами различного возраста профессиональной компетенции, в том числе для работы с конкретным оборудованием, технологиями, аппаратно-программными и иными профессиональными средствами, получение указанными лицами квалификационных разрядов, классов, категорий по профессии рабочего или должности служащего без изменения уровня образования;</p>
+            <p>−	направленные на формирование и развитие творческих способностей, удовлетворение индивидуальных потребностей в интеллектуальном, нравственном и физическом совершенствовании, формирование культуры здорового и безопасного образа жизни.</p>
+          <p>Помимо теоретических знаний, активно ведется практическая подготовка специалистов различных областей. Практическая подготовка ведется на базе лучших предприятий электроэнергетики, газовой промышленности.</p>
+        </div>
+      </div>
+
+      <div class="aboutRow">
+        <div class="aboutLeft">
+          <p>В процессе обучения активно применяются дистанционные технологии:</p>
+          <p>−	в полном объеме с записью эфиров используется расширенная версия Zoom конференция;</p>
+          <p>−	проводятся онлайн вебинары на youtube канале учебного центра;</p>
+          <p>−	ведутся разработки учебного материала для платформы для систем дистанционного обучения.</p>
+        </div>
+        <img class="aboutImg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about/image4.jpg" alt="about_img2">
+      </div>
+
+      <div class="aboutRow">
+        <img class="aboutImg" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about/image3.jpg" alt="about_img3">
+        <div class="aboutRight">
+          <p>С нами сотрудничают:</p>
+          <p>филиалы ПАО «МРСК Центра» - «Орелэнерго», «Курскэнерго», «Брянскэнерго», «Тамбовэнерго», «Смоленскэнерго», а так же ПАО «Квадра» - «Орловская генерация», ООО «Агроторг», ООО «Знаменский СГЦ», ПАО «Наугорский», АО «Орелмасло», ООО «Орловский энергосбыт», УК «Основа», ООО «Авангард-Агро-Орел», ООО «Борисоглебский», ООО «Дуплекс».</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviewsBlock">
+      <h1 class="title">Отзывы</h1>
+
+      <div class="reviewsTop">
+        <div class="reviewsControls">
+          <div class="leftBtn" onclick="handlerPrevReview()"></div>
+          <div class="countReviews"></div>
+          <div class="rightBtn" onclick="handlerNextReview()"></div>
+        </div>
+        <a class="showReviews" href="#">Читать все отзывы</a>
+      </div>
+
+      <div class="reviewMainBlock">
+        <div class="reviewBlock">
+
+          <div class="reviewCard">
+            <p class="authorReview">А. И. ВАСИЛЬЕВ</p>
+            <p class="textReview">Учебный комбинат пример того, как надо готовить кадры для поддержания промышленной безопасности на опасных производственных объектах. Такие учебные заведения будем поддерживать всегда.</p>
+            <p class="positionReview">Начальник Орловского отдела Управлени Приокского округа ГГТН России</p>
+          </div>
+
+          <div class="reviewCard">
+            <p class="authorReview">Гнеушев Г. Л.</p>
+            <p class="textReview">Мы приехали в учебный комбинат из разных районов области для того, чтобы обучиться второй профессии - это профессия стропальщика. Материальная база учебного комбината позволяет преподавателям обучать нас этой професии. Преподаватели объясняют материал очень доступно для каждого слушателя. Мы, слушатели группы, хотим пожелать, чтобы в учебном комбинате всегда обучение было на таком уровне.</p>
+            <p class="positionReview">Электромонтер Урицкого РЭС, филиал ПАО "МРСК Центра" - "Орелэнерго"</p>
+          </div>
+
+          <!-- <div class="reviewCard">
+            <p class="authorReview">3 Lorem ipsum dolor sit amet</p>
+            <p class="textReview">Хочу выразить преподавателям благодарность за труд, за те знания, которые дают учащимся: Шарыкин Леонид Михайлович, Гиловой Георгий Владимирович, Крупский Александр Михайлович, Колганов Анатолий Иванович, Конарева Елена Владимировна, Паршинцева Ирина Юрьевна, особую благодарность директору учкомбината Блахову Николаю Ивановичу за его внимание и заботу.</p>
+            <p class="positionReview">Электромонтер Корсаковского РЭС, Филоненко С. М.</p>
+          </div> -->
+
+          <div class="reviewCard">
+            <p class="authorReview">С. П. МИХЕЕВ</p>
+            <p class="textReview">Наше сотрудничество позволяет постоянно повышать уровень знаний работников, добиваться высокого качества производства. Комбинат имеет хорошую базу для учебы. Здесь четко организован процесс обучения с использованием современных технических средств.</p>
+            <p class="positionReview">Начальник ОНиТБ Орловской ТЭЦ</p>
+          </div>
+
+        </div>
+        <a class="callbackBlock" href="#">
+          Заказать<br />обратный звонок
+          <div class="phoneCallback"></div>
+        </a>
+      </div>
+    </div>
+
+    <div class="newsBlock">
+      <h1 class="title">Новости</h1>
+
+      <div class="reviewsTop">
+        <div class="reviewsControls">
+          <div class="leftBtn" onclick="handlerPrevNews()"></div>
+          <div class="rightBtn" onclick="handlerNextNews()"></div>
+        </div>
+        <a class="showReviews" href="#">Все новости</a>
+      </div>
+
+      <div class="newsMain">
+
+        <div class="newsPage">
+          <!-- <a class="news" href="#">
+            <div class="newsImg">
+              <img class="newsPicture" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/news/image1.jpg" alt="news1">
+            </div>
+            <div class="dateAndCategory">
+              <i class="far fa-calendar"></i>
+              <div class="textDateAndCategory">14.07.2021 &#8226; Важное</div>
+            </div>
+            <div class="newsTitle">
+              Lorem ipsum dolor sit amet, consectetur
+            </div>
+            <p class="shortNews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </a>
+
+          <a class="news" href="#">
+            <div class="newsImg">
+              <img class="newsPicture" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/news/image2.jpg" alt="news2">
+            </div>
+            <div class="dateAndCategory">
+              <i class="far fa-calendar"></i>
+              <div class="textDateAndCategory">15.07.2021 &#8226; Интересное</div>
+            </div>
+            <div class="newsTitle">
+              Lorem ipsum dolor sit amet, consectetur
+            </div>
+            <p class="shortNews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </a>
+
+          <a class="news" href="#">
+            <div class="newsImg">
+              <img class="newsPicture" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/news/image3.jpg" alt="news3">
+            </div>
+            <div class="dateAndCategory">
+              <i class="far fa-calendar"></i>
+              <div class="textDateAndCategory">16.07.2021 &#8226; Новости</div>
+            </div>
+            <div class="newsTitle">
+              Lorem ipsum dolor sit amet, consectetur
+            </div>
+            <p class="shortNews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </a> -->
+        </div>
+
+        <!-- <div class="newsPage">
+          <a class="news" href="#">
+            <div class="newsImg">
+              <img class="newsPicture" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/news/image3.jpg" alt="news33">
+            </div>
+            <div class="dateAndCategory">
+              <i class="far fa-calendar"></i>
+              <div class="textDateAndCategory">14.07.2021 &#8226; Важное</div>
+            </div>
+            <div class="newsTitle">
+              Lorem ipsum dolor sit amet, consectetur
+            </div>
+            <p class="shortNews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </a>
+
+          <a class="news" href="#">
+            <div class="newsImg">
+              <img class="newsPicture" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/news/image2.jpg" alt="news22">
+            </div>
+            <div class="dateAndCategory">
+              <i class="far fa-calendar"></i>
+              <div class="textDateAndCategory">15.07.2021 &#8226; Интересное</div>
+            </div>
+            <div class="newsTitle">
+              Lorem ipsum dolor sit amet, consectetur
+            </div>
+            <p class="shortNews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </a>
+
+          <a class="news" href="#">
+            <div class="newsImg">
+              <img class="newsPicture" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/news/image1.jpg" alt="news11">
+            </div>
+            <div class="dateAndCategory">
+              <i class="far fa-calendar"></i>
+              <div class="textDateAndCategory">16.07.2021 &#8226; Новости</div>
+            </div>
+            <div class="newsTitle">
+              Lorem ipsum dolor sit amet, consectetur
+            </div>
+            <p class="shortNews">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </a>
+        </div> -->
+
+      </div>
+    </div>
+
+    <div class="footerLogos">
+      <a href="https://fas.gov.ru/" target="_blank">
+        <img class="footerLogo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logos/fas.png" alt="logo1">
+      </a>
+      <a href="https://www.rosseti.ru/" target="_blank">
+        <img class="footerLogo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logos/logo2.png" alt="logo2">
+      </a>
+      <a href="http://minenergo.gov.ru/" target="_blank">
+        <img class="footerLogo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logos/minenergetiki.png" alt="logo3">
+      </a>
+      <a href="http://www.mrsk-1.ru/" target="_blank">
+        <img class="footerLogo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logos/rosseti_centr.png" alt="logo4">
+      </a>
+      <a href="http://government.ru/" target="_blank">
+        <img class="footerLogo" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logos/GOV-Logo-B.png" alt="logo5">
+      </a>
+    </div>
+
+    <footer>
+      <div class="topFooter">
+        <a class="logo" href="#">
+          <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo4.png" alt="siteLogo">
+        </a>
+        <div class="rightFooter">
+          <a href="#">
+            <i class="fas fa-eye"></i> Версия для слабовидящих
+          </a>
+          <a style="padding-left: 20px;" href="#">Карта сайта</a>
+        </div>
+      </div>
+
+      <div class="footerSocialLinks">
+        <div class="socialIconsLinks">
+          <!-- <a href="#"><i class="fab fa-vk"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a> -->
+          <a href="https://www.youtube.com/channel/UCy1Pqk1D60MzmhntzVzAH4Q" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        Copyright &copy; 2021 ЧУ ДПО &laquo;Орловский учебный комбинат&raquo;. Все права защищены.
+      </div>
+
+      <div class="footerElectricity"></div>
+    </footer>
+
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/topSlider.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/plugins/slider/slider.js"></script>
+    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/js/main.js"></script>
+    <!-- <script src="js/reviewSlider.js"></script> -->
+  </body>
+</html>
